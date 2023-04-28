@@ -16,13 +16,12 @@
 }
 
 .header {
-    margin: 80px 70px;
+    margin: 50px 70px;
     display: flex;
     justify-content: space-between;
-    gap: 35px;
+    gap: 20px;
     flex-wrap: wrap;
-    padding: 0 180px;
-    /*width: 1600px;*/
+    
 }
 
 .order {
@@ -41,6 +40,7 @@
 
 .basket > .image {
     width: 50px
+    
 }
 
 .basket {
