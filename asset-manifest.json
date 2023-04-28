@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Module-react/static/css/main.ceeee544.css",
+    "main.js": "/Module-react/static/js/main.eadcc468.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Module-react/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Oysters.svg": "/Module-react/static/media/Oysters.33db7b679957c0f310918d0eb88b8800.svg",
+    "static/media/Ribs.svg": "/Module-react/static/media/Ribs.93a14528ad5c778e8368b9da18c01e91.svg",
+    "static/media/Shrimps.svg": "/Module-react/static/media/Shrimps.511e36854d157cbf709c2749aa8a258a.svg",
+    "static/media/Basket-Icon.svg": "/Module-react/static/media/Basket-Icon.72e035aa7c2acbb899c9f23e2b1122b4.svg",
+    "index.html": "/Module-react/index.html",
+    "main.ceeee544.css.map": "/Module-react/static/css/main.ceeee544.css.map",
+    "main.eadcc468.js.map": "/Module-react/static/js/main.eadcc468.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Module-react/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ceeee544.css",
+    "static/js/main.eadcc468.js"
+  ]
+}
