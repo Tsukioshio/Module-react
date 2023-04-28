@@ -1,0 +1,80 @@
+.card {
+    width: 312px;
+    height: 552px;
+    box-sizing: border-box;
+    border: 1px solid #D58C51;
+    padding: 40px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card:hover > .wrapper > .text,
+.card:hover > .card-description >.text {
+    color: #D58C51;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+}
+
+/*.card-description:hover {*/
+/*    color: #D58C51;*/
+
+/*}*/
+
+/*.image {*/
+/*    width: 270px;*/
+/*    height: 270px;*/
+/*}*/
+
+.wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+
+.addToCartBtn {
+    background-color: #161516;
+    border: white solid 2px ;
+    border-radius: 50%;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+
+.addToCartBtn:hover {
+    background-color: orange;
+}
+
+
+
+

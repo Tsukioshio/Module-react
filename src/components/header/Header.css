@@ -1,0 +1,55 @@
+.header > h1 {
+    color: white;
+    width: 335px;
+    height: 38px;
+    left: 70px;
+    top: 54px;
+
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+}
+
+.header {
+    margin: 80px 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    flex-wrap: wrap;
+    padding: 0 180px;
+    /*width: 1600px;*/
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: right;
+    padding: 5px;
+
+}
+
+.basket > .image {
+    width: 50px
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.order > p {
+    margin: 0px;
+}

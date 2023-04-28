@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #161516;
+    width: 100vw;
+    height: 100vh;
+}
+
+.product-wrapper {
+    margin: 80px 70px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    /*width: 1600px;*/
+    padding: 20px 20px;
+}
+
