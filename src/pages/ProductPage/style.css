@@ -7,4 +7,5 @@
     margin: 0px 200px;
     justify-content: center;
     height: calc(100vh - 152px);
+    overflow: auto;
 }
