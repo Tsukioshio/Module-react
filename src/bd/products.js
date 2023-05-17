@@ -69,15 +69,6 @@ const products = [
         measure: "шт.",
         weight: 7
     },
-    // {
-    //     id: 9,
-    //     productPreview: img1,
-    //     productTitle: "Устрицы по рокфеллеровски",
-    //     description: "Значимость этих проблем настолько очевидна, что укрепление и развитие структуры",
-    //     price: 2700,
-    //     weight: 500
-    // },
-
 ];
 
 export default products;
