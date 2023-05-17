@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.product-item {
+    color: #ffffff;
+    font-size: 1em;
+    border: #D58C51 solid 1px;
+    width: 310px;
+    padding: 20px;
+}
+.product-item:hover {
+    color: #D58C51;
+}
+.product-title {
+    font-size: 17px;
+    padding: 21px 0;
+    font-weight: 500;
+}
+
+.product-preview {
+    margin: 0 auto;
+    display: block;
+}
+
+.product-description {
+    height: 95px;
+    margin-bottom: 5px;
+}
+
+.product-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-cart_button {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.product-item:hover .product-cart_button {
+    color: #fff;
+}
+.product-cart_button:hover {
+    background: #D58C51;
+}

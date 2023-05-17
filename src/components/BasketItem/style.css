@@ -1,0 +1,34 @@
+.basket-item {
+    width: 850px;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 31px auto;
+    align-items: center;
+}
+.basket-preview {
+    width: 122px;
+    height: 122px;
+}
+.basket-title {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: left;
+    max-width: 277px;
+    flex-grow: 1;
+}
+.basket-price {
+    color: #D58C51;
+    font-weight: 400;
+    font-size: 18px;
+    padding-right: 10px;
+}
+.basket-cart_button {
+    width: 30px;
+    height: 30px;
+    color: #D58C51;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 1px solid #D58C51;
+}
