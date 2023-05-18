@@ -40,7 +40,7 @@ function Basket() {
             </div>
             <hr/>
             <div className="basket_footer">
-                <div className="order-footer">Заказ на сумму</div>
+                <div className="order-footer">Заказ на сумму:</div>
                 <div className="order-price">{formatPrice(totalPrice)}</div>
                 {
                     basketItemsList.length ? (<Link to={pages.order} className="order_button">Оформить заказ</Link>) : ''

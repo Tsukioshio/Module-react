@@ -27,6 +27,11 @@
     font-weight: 700;
     text-decoration: underline;
 }
+
+.autorization_link > a {
+    color: #D58C51;
+}
+
 .entry {
     color: #161516;
     margin-bottom: 20px;
@@ -52,7 +57,7 @@
 
 .signature {
     font-size: 0.7em;
-    color: #CB2424;
+    color: #FF0B0B;
     padding: 5px 30px;
     display: none;
 }
@@ -108,23 +113,23 @@
 }
 
 .entry-field_error input {
-    border-color: #CB2424;
+    border-color: #FF0B0B;
 }
 .entry-field_error:before {
-    color: #CB2424;
+    color: #FF0B0B;
 }
 .entry-field_error .autorization_label {
-    color: #CB2424;
+    color: #FF0B0B;
 }
 .entry-field_error .signature {
     display: block;
 }
 .entry-field_error .input-checkbox__label:before {
-    border-color: #CB2424;
+    border-color: #FF0B0B;
 }
 .error_text {
     display: none;
-    color: #CB2424;
+    color: #FF0B0B;
     font-size: 15px;
     padding-left: 80px;
 }

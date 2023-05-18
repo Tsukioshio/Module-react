@@ -8,7 +8,6 @@ import {useDispatch} from "react-redux";
 function Order() {
     const dispatch = useDispatch();
 
-    /** Очищаем корзину */
     dispatch(clearCart());
 
     return (
@@ -18,8 +17,8 @@ function Order() {
                 needBack={true}
             />
             <div className="order_text">
-                <p>Вы успешно оформили заказ</p><br/>
-                <p>Ожидайте, наш менеджер свяжется с вами для уточнения деталей заказа</p>
+                <p>Вы успешно оформили заказ!</p><br/>
+                <p>Ожидайте менеджера для уточнения данных </p>
             </div>
         </>
     )

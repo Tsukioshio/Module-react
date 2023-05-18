@@ -7,7 +7,7 @@ const products = [
         id: 1,
         productPreview: img1,
         productTitle: "Устрицы по рокфеллеровски",
-        description: "Значимость этих проблем настолько очевидна, что укрепление и развитие структуры",
+        description: "Oysters Rockefeller - изысканное блюдо американской кухни.",
         price: 2700,
         weight: 500
     },
@@ -15,7 +15,7 @@ const products = [
         id: 2,
         productPreview: img2,
         productTitle: "Свиные ребрышки на гриле с зеленью",
-        description: "Не следует, однако забывать, что реализация намеченных плановых",
+        description: "Свиные ребрышки, приготовленные на гриле, являются вкусным и сытным блюдом. ",
         price: 1600,
         weight: 750
     },
@@ -23,7 +23,7 @@ const products = [
         id: 3,
         productPreview: img3,
         productTitle: "Креветки по-королевски в лимонном соке",
-        description: "Значимость этих проблем настолько очевидна, что укрепление и развитие структуры обеспечивает широкому кругу",
+        description: "Креветки - прекрасная закуска к пиву! Но как их приготовить знают не все.",
         price: 1820,
         measure: "шт.",
         weight: 7
@@ -40,7 +40,7 @@ const products = [
         id: 5,
         productPreview: img1,
         productTitle: "Устрицы по рокфеллеровски",
-        description: "Значимость этих проблем настолько очевидна, что укрепление и развитие структуры",
+        description: "Oysters Rockefeller - изысканное блюдо американской кухни.",
         price: 2700,
         weight: 500
     },
@@ -48,26 +48,26 @@ const products = [
         id: 6,
         productPreview: img2,
         productTitle: "Свиные ребрышки на гриле с зеленью",
-        description: "Не следует, однако забывать, что реализация намеченных плановых",
+        description: "Свиные ребрышки, приготовленные на гриле, являются вкусным и сытным блюдом. ",
         price: 1600,
         weight: 750
     },
     {
         id: 7,
         productPreview: img3,
-        productTitle: "Свиные ребрышки на гриле с зеленью",
-        description: "Не следует, однако забывать, что реализация намеченных плановых",
-        price: 1600,
-        weight: 750
+        productTitle: "Креветки по-королевски в лимонном соке",
+        description: "Креветки - прекрасная закуска к пиву! Но как их приготовить знают не все.",
+        price: 1820,
+        measure: "шт.",
+        weight: 7
     },
     {
         id: 8,
         productPreview: img1,
-        productTitle: "Креветки по-королевски в лимонном соке",
-        description: "Значимость этих проблем настолько очевидна, что укрепление и развитие структуры обеспечивает широкому кругу",
-        price: 1820,
-        measure: "шт.",
-        weight: 7
+        productTitle: "Устрицы по рокфеллеровски",
+        description: "Oysters Rockefeller - изысканное блюдо американской кухни.",
+        price: 2700,
+        weight: 500
     },
 ];
 

@@ -25,7 +25,7 @@ a:active {
 /* Links */
 
 a, a:link, a:visited  {
-    color: #D58C51;
+    /* color: #D58C51; */
     text-decoration: none;
     /* display: inline-block; */
 }
