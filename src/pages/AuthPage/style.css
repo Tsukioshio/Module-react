@@ -4,6 +4,7 @@
     height: 100%;
     top: 0;
     left: 240px;
+    background-repeat: no-repeat;
     background: url("../../assets/auth_bg.jpg");
 }
 
