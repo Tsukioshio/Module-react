@@ -1,0 +1,135 @@
+.reg_background {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    top: 0;
+    left: 240px;
+    background: url("../../assets/auth_bg.jpg");
+}
+
+.autorization {
+    font-family: 'Roboto', sans-serif;
+    margin: 300px auto;
+    width: 600px;
+    max-width: 100%;
+    background-color: #FFFFFF;
+    padding-bottom: 34px;
+    position: relative;
+    z-index: 3;
+}
+
+.autorization_link {
+    display: block;
+    font-size: 0.8em;
+    padding: 10px 30px;
+    text-align: right;
+    color: #D58C51;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.entry {
+    color: #161516;
+    margin-bottom: 20px;
+    font-weight: 700;
+    Font-family: Montserrat;
+    font-size: 3em;
+    text-align: center;
+}
+.autorization_entry-field {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color: #D58C51;
+    margin: 20px 46px;
+}
+.autorization_entry-field > input {
+    height: 50px;
+    position: relative;
+    font-family: Montserrat;
+    border: 1px solid #D58C51;
+    border-radius: 25px;
+}
+
+.signature {
+    font-size: 0.7em;
+    color: #CB2424;
+    padding: 5px 30px;
+    display: none;
+}
+
+.autorization_username {
+    font-size: 1.5em;
+    color: #CCCCCC;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.entry-checkbox {
+    position: relative;
+    color: #787878;
+    margin: 0px 46px;
+}
+.input-checkbox {
+    display: none;
+}
+.input-checkbox__label {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 35px;
+    display: inline-block;
+}
+.input-checkbox__label:before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 0;
+    border-radius: 20px;
+    border: 1px solid #D58C51;
+}
+
+.input-checkbox:checked + .input-checkbox__label:before {
+    background-image: url("../../assets/vector.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.wrapper {
+    color: #131313;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #D58C51;
+    font-family: Montserrat;
+    width: 15em;
+    height: 3em;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.entry-field_error input {
+    border-color: #CB2424;
+}
+.entry-field_error:before {
+    color: #CB2424;
+}
+.entry-field_error .autorization_label {
+    color: #CB2424;
+}
+.entry-field_error .signature {
+    display: block;
+}
+.entry-field_error .input-checkbox__label:before {
+    border-color: #CB2424;
+}
+.error_text {
+    display: none;
+    color: #CB2424;
+    font-size: 15px;
+    padding-left: 80px;
+}
+
+.success_text {
+    color: green;
+    padding: 5px 45px 0;
+}

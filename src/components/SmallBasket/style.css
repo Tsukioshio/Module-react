@@ -1,0 +1,26 @@
+.full-basket {
+    display: flex;
+}
+.basket-radius {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    background-color: #D58C51;
+    text-align: center;
+    padding: 14px;
+}
+.basket {
+    color: #ffffff;
+    margin: 15px 20px;
+    width: 170px;
+    height: 42px;
+    text-align: right;
+    font-size: 17px;
+    font-weight: 500;
+}
+.image-bas {
+    width: 20px;
+    height: 20px;
+}
