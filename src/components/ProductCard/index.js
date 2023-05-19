@@ -2,7 +2,7 @@ import './style.css'
 import {useDispatch, useSelector} from "react-redux";
 import {addToCartList, removeFromCartList} from "../../store/reducers/cart";
 import {Link} from 'react-router-dom';
-import pages from "../../bd/pages";
+import pages from "../../products/pages";
 
 function Product({id, productPreview, productTitle, description, price, weight, measure}) {
     const isAdded = !!useSelector(({cart}) => cart.list.find(cartItem => cartItem.id === id));

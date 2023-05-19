@@ -1,8 +1,8 @@
 import React from "react";
 import './style.css';
 import Product from '../../components/ProductCard';
-import PageHeader from "../../components/PageHeader";
-import productsList from '../../bd/products';
+import PageHeader from "../../components/Header";
+import productsList from '../../products/products';
 
 function MainPage() {
 

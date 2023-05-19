@@ -5,11 +5,11 @@ import {Navigate} from "react-router";
 
 import Main from './pages/MainPage';
 import Product from './pages/ProductPage';
-import Basket from './pages/BasketPage';
-import Order from './pages/OrderPage';
-import Authorization from './pages/AuthPage';
+import Basket from './pages/Basket';
+import Order from './pages/Orders';
+import Authorization from './pages/Authorization';
 
-import pages from "./bd/pages";
+import pages from "./products/pages";
 
 const router = createBrowserRouter([
     {

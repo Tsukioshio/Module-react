@@ -3,8 +3,8 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import SmallBasket from "../SmallBasket";
 import backImg from "../../assets/img_back.svg";
-import LogoutButton from "../LogoutButton";
-import pages from "../../bd/pages";
+import LogoutButton from "../Logout";
+import pages from "../../products/pages";
 
 function PageHeader({title, needCart, needBack}) {
 

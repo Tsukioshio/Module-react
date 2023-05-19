@@ -3,7 +3,7 @@ import basketImg from "../../assets/basket.svg";
 import React from "react";
 import {useSelector} from "react-redux";
 import {Link} from 'react-router-dom';
-import pages from "../../bd/pages";
+import pages from "../../products/pages";
 
 function SmallBasket() {
     const productsCount = useSelector(state => state.cart.productsCount);

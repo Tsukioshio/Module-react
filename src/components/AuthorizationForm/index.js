@@ -8,10 +8,7 @@ function AuthorizationForm({isReg, toggleForm}) {
     const successText = useSelector(state => state.user.successText);
     const dispatch = useDispatch();
 
-    /**
-     * Отправка формы регистрации
-     * @param event
-     */
+    
     const submitRegForm = (event) => {
         const form = event.target;
         const errBlock = form.querySelector('.error_text');
@@ -19,7 +16,7 @@ function AuthorizationForm({isReg, toggleForm}) {
         errBlock.innerText = '';
         dispatch(setSuccessText(""));
 
-        /** Предотвращаем выполнение стандартной логики отправки формы */
+        
         event.preventDefault();
 
         if (validateForm(form)) {
@@ -46,17 +43,14 @@ function AuthorizationForm({isReg, toggleForm}) {
         }
     };
 
-    /**
-     * Отправка формы авторизации
-     * @param event
-     */
+    
     const submitAuthForm = (event) => {
         const form = event.target;
         const errBlock = form.querySelector('.error_text');
 
         errBlock.innerText = '';
 
-        /** Предотвращаем выполнение стандартной логики отправки формы */
+        
         event.preventDefault();
 
         if (validateForm(form)) {
@@ -131,7 +125,7 @@ function validateForm(form) {
     let isValid = true;
     let formData = {};
 
-    /** В цикле обрабатываем все поля формы */
+    
     for (let i = 0; i < arInputs.length; i++) {
         let input = arInputs[i];
 
@@ -145,11 +139,7 @@ function validateForm(form) {
     return isValid;
 }
 
-/**
- * Валидация поля
- * @param input
- * @returns {boolean}
- */
+
 function inputValidation(input) {
     const value = input.value;
     const parentNode = input.parentNode;
@@ -176,19 +166,12 @@ function inputValidation(input) {
     return !errMessage;
 }
 
-/**
- * Обработка события фокуса элемента. Убираем класс ошибки
- * @param event
- */
+
 function inputFocus(event) {
     event.target.parentNode.classList.remove('entry-field_error');
 }
 
-/**
- * Проверка корректности email
- * @param email
- * @returns {boolean}
- */
+
 function validateEmail(email) {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 

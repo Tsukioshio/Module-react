@@ -32,7 +32,7 @@ const products = [
         id: 4,
         productPreview: img1,
         productTitle: "Устрицы по рокфеллеровски",
-        description: "Значимость этих проблем настолько очевидна, что укрепление и развитие структуры",
+        description: "Oysters Rockefeller - изысканное блюдо американской кухни.",
         price: 2700,
         weight: 500
     },

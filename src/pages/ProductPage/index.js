@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import './style.css';
-import ProductDetail from '../../components/ProductDetail';
-import PageHeader from "../../components/PageHeader";
-import productsList from '../../bd/products';
+import ProductDetail from '../../components/ProductContent';
+import PageHeader from "../../components/Header";
+import productsList from '../../products/products';
 import {useParams} from "react-router";
 
 function ProductPage() {

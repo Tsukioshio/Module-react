@@ -3,7 +3,7 @@ import './style.css';
 import {useDispatch} from "react-redux";
 import {removeFromCartList} from "../../store/reducers/cart";
 import {Link} from 'react-router-dom';
-import pages from "../../bd/pages";
+import pages from "../../products/pages";
 
 function BasketItem({id, productTitle, productPreview, price}) {
 

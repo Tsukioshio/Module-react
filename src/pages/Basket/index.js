@@ -2,9 +2,9 @@ import './style.css'
 import React from "react";
 import BasketItem from "../../components/BasketItem";
 import {useSelector} from "react-redux";
-import PageHeader from "../../components/PageHeader";
+import PageHeader from "../../components/Header";
 import {Link} from 'react-router-dom';
-import pages from "../../bd/pages";
+import pages from "../../products/pages";
 
 
 function Basket() {
